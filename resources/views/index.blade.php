@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <H1>ทดสอบ</H1>
-</body>
-</html>
+@extends('layout')
+@section('title','หน้าแรก')
+@section('content')
+    <h1>สวัสดี Laravel</h1>
+    <p>เรากำลังเรียนรู้การสร้างเว็บแอปพลิเคชันด้วย Laravel 10</p>
+
+@endsection
